@@ -1,0 +1,26 @@
+.lista{
+    list-style: none;
+    justify-content: center;
+    display: block;
+    width: 50%;
+    margin-left: auto;
+   margin-right: auto;
+
+}
+
+.elementLi{
+    color: black;
+    padding: 0px 0px;
+    font-size: x-large;
+   
+}
+
+@media (max-width:660px) {
+   
+  .elementLi{
+      font-size: 15px;
+      padding-top: 5px;
+      
+  }
+   
+  }

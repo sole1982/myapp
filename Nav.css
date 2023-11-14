@@ -1,0 +1,36 @@
+.navStyle{
+    background-color: blueviolet;
+    background: #3E5151;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #DECBA4, #3E5151);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #DECBA4, #3E5151); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    list-style: none;
+    display: flex;
+    justify-content: end;
+}
+li{
+    padding: 10px;
+    margin: 10px;
+    font-size: 25px;
+  }
+a{
+  text-decoration: none;
+  color: black;
+}
+@media (max-width:660px) {
+  .navStyle{ 
+   background: none;
+      height: 100px;
+      display: inline;
+      
+      
+      
+     
+} 
+li{
+    font-size: 25px;
+    justify-content: end;
+  padding-left: 250px;
+    
+}
+    
+}
